@@ -1,5 +1,5 @@
 import React from 'react';
-import './CheckoutStyle.css'
+import './CheckOutStyle.css'
 import Subtotal from './Subtotal';
 import CheckoutProduct from './CheckoutProduct';
 import { useStateValue } from "./StateProvider";
@@ -19,9 +19,9 @@ function CheckOut() {
                         image={item.image}
                         title={item.title}
                         price={item.price}
-                        rating={item.rating} />
+                        rating={item.rating}/>
                     ))}
-                    
+                
                     {/* BasketItem */}
                     {/* BasketItem */}
                 </div>
